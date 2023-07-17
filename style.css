@@ -494,6 +494,8 @@ footer{
   }
 
 
+    /******filter bar***********/
+
   .filter-bar{
     display: flex;
     flex-direction: column;
@@ -516,6 +518,9 @@ footer{
   .filtre4 a{
     width: 161px;
   }
+
+  
+  /******hebergement and populaire***********/
 
   .hebergements-and-populaires {
     flex-direction: column;
@@ -545,6 +550,9 @@ footer{
   .card{
     width: 274.66px;
   }
+
+
+    /******activite***********/
 
   .content{
     display: flex;

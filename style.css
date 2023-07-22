@@ -136,6 +136,16 @@ body {
   font-size: 18px;
 }
 
+
+
+
+/*.p-form{
+  position: absolute;
+  bottom: 14px;
+  left: 85px;
+  font-weight: 700;
+}*/
+
 .btn-search {
   display: flex;
   justify-content: center;
@@ -450,8 +460,8 @@ footer {
     width: auto;
   }
 
-  /******************filter-bar******************/
-  .filter-bar {
+
+  .filter-bar{
     display: flex;
     flex-direction: column;
     width: 668px;
@@ -473,6 +483,9 @@ footer {
   .filtre4 a {
     width: 161px;
   }
+
+  
+  /******hebergement and populaire***********/
 
   /************herbergement and populaire***************/
   .hebergements-and-populaires {
@@ -508,9 +521,7 @@ footer {
     width: 274.66px;
   }
 
-  /*************activite*****************/
-
-  .content {
+  .content{
     display: flex;
     gap: 30px;
     width: auto;

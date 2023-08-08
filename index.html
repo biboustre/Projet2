@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="style.css"/>
+      referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
   </head>
+
+
 
   <body>
     <div class="main-container">
       <header class="logo-nav">
         <div class="logo">
-          <img src="images/Booki.png" alt="nom du site"/>
+          <img src="images/Booki.png" alt="nom du site">
         </div>
 
         <nav class="navigation">
@@ -30,6 +32,11 @@
           <a href="#activite">Activités</a>
         </nav>
       </header>
+
+
+
+
+
 
       <section class="selection">
         <div class="titre">
@@ -39,66 +46,77 @@
           <p class="select-p">En plein centre-ville ou en pleine nature</p>
         </div>
 
+
+        <!--bar de recherche-->
         <div class="search-bar">
           <div class="image">
-            <img src="images/pin_6115885.png" alt="logo position"/>
+            <img src="images/pin_6115885.png" alt="logo position">
           </div>
+          
           <form action="#" method="get">
             <input class="champ"
               type="text"
               name="search"
               id="search"
-              value="Marseille, France"/>
+              value="Marseille, France">
           </form>
 
           <div class="btn-search">
-            <a class="desktop-search" href="#">Recherche</a>
+            <a class="desktop-search" href="#"><p>Recherche</p></a>
             <a class="loupe" href="#"
               ><i class="fa-solid fa-magnifying-glass"></i
             ></a>
           </div>
         </div>
 
-        <div class="filter-bar">
-          <div class="bar">
-            <div>Filtres</div>
+
+
+              <!--Filtres-->
+        <section class="filter-bar">
+          <div class="title-filter-bar">
+            <h2>Filtres</h2> 
           </div>
 
-          <section class="case"> 
+          <div class="case"> 
             <div class="case1">
               <div class="filtres filtre1">
                 <a href="#"
                   ><i class="fa-solid fa-money-bill-wave"></i>
-                  <div>Économique</div></a
+                  <p>Économique</p></a
                 >
               </div>
 
               <div class="filtres filtre2">
                 <a href="#"
                   ><i class="fa-solid fa-person"></i>
-                  <div>Familiale</div></a
+                  <p>Familiale</p></a
                 >
               </div>
             </div>
+
+
 
             <div class="case2">
               <div class="filtres filtre3">
                 <a href="#"
                   ><i class="fa-solid fa-heart"></i>
-                  <div>Romantique</div>
+                  <p>Romantique</p>
                 </a>
               </div>
 
               <div class="filtres filtre4">
                 <a href="#"
                   ><i class="fa-sharp fa-solid fa-fire"></i>
-                  <div>Nos pépites</div>
+                  <p>Nos pépites</p>
                 </a>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
 
+
+
+              <!--Info pratique-->
         <aside>
           <div class="icon">
             <i class="fa-solid fa-info"></i>
@@ -107,14 +125,19 @@
         </aside>
       </section>
 
+
+
+
       <main>
         <div class="hebergements-and-populaires">
           <section id="hebergements">
             <h1>Hébergements à Marseille</h1>
+
+              <!--Partie du haut hebergements-->
             <div class="haut">
               <div class="hotel hotel1">
                 <a class="lien-hotel" href="#">
-                  <img src="images/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
+                  <img src="images/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
 
                   <div class="description">
                     <h2 class="nom">Hôtel du port</h2>
@@ -135,9 +158,12 @@
                 </a>
               </div>
 
+
+
+
               <div class="hotel hotel2">
                 <a class="lien-hotel" href="#">
-                  <img src="images/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
+                  <img src="images/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant un lit">
 
                   <div class="description">
                     <h2 class="nom">Hôtel Chez Amina</h2>
@@ -158,9 +184,12 @@
                 </a>
               </div>
 
+
+
+
               <div class="hotel hotel3">
                 <a class="lien-hotel" href="#">
-                  <img src="images/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
+                  <img src="images/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit">
 
                   <div class="description">
                     <h2 class="nom">Hôtel Les mouettes</h2>
@@ -182,10 +211,13 @@
               </div>
             </div>
 
+
+
+              <!--Partie du bas hebergements-->
             <div class="bas">
               <div class="hotel hotel1">
                 <a class="lien-hotel class=" href="#">
-                  <img src="images/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
+                  <img src="images/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit">
 
                   <div class="description">
                     <h2 class="nom">Hôtel de la mer</h2>
@@ -206,9 +238,12 @@
                 </a>
               </div>
 
+
+
+
               <div class="hotel hotel2">
                 <a class="lien-hotel" href="#">
-                  <img src="images/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
+                  <img src="images/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant un lit">
 
                   <div class="description">
                     <h2 class="nom">Auberge La Canebière</h2>
@@ -229,9 +264,12 @@
                 </a>
               </div>
 
+
+          
+
               <div class="hotel hotel3">
                 <a class="lien-hotel" href="#">
-                  <img src="images/nicate-lee.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
+                  <img src="images/nicate-lee.jpg" alt="Image de la chambre d'hôtel montrant un lit">
 
                   <div class="description">
                     <h2 class="nom">Auberge Le Panier</h2>
@@ -256,17 +294,28 @@
             <p class="plus">Afficher plus</p>
           </section>
 
+
+
+
+
+
+
+          <!--POPULAIRE SECTION-->
+
           <section class="populaires">
             <div class="populaires-title">
               <h2 class="section-title">Les plus populaires</h2>
               <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
             </div>
+
+
             <div class="populaires-cards">
+              <!--card 1-->
               <article class="card">
                 <a class="lien-card" href="#">
                   <img
                     src="images/emile-guillemot.jpg"
-                    alt="Image de la chambre d'hôtel montrant un lit"/>
+                    alt="Image de la chambre d'hôtel montrant un lit">
                   <div class="card-content">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel Le soleil du matin</h3>
@@ -289,9 +338,12 @@
                 </a>
               </article>
 
+
+
+              <!--card 2-->
               <article class="card">
                 <a class="lien-card" href="#">
-                  <img src="./images/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
+                  <img src="./images/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                   <div class="card-content">
                     <div class="card-txt">
                       <h3 class="card-title">
@@ -316,9 +368,12 @@
                 </a>
               </article>
 
+
+
+              <!--card 3-->
               <article class="card">
                 <a class="lien-card" href="#">
-                  <img src="./images/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
+                  <img src="./images/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                   <div class="card-content">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel Bleu et Blanc</h3>
@@ -344,36 +399,46 @@
           </section>
         </div>
 
+
+        <!--Activite section-->
+
         <section id="activite">
           <h1 class="activite-titre">Activités à Marseille</h1>
-          <article class="content">
+
+          <div class="content">
             <div class="blocs bloc1">
               <a href="#">
-                <img src="images/reno-laithienne.jpg" alt="image du vieux port"/>
-                <h1>Vieux-Port</h1>
+                <img src="images/reno-laithienne.jpg" alt="image du vieux port">
+                <p>Vieux-Port</p>
               </a>
             </div>
+
             <div class="blocs bloc2">
               <a href="#">
-                <img src="images/paul-hermann.jpg" alt="image fort"/>
-                <h1>Fort de Pomègues</h1>
+                <img src="images/paul-hermann.jpg" alt="image fort">
+                <p>Fort de Pomègues</p>
               </a>
             </div>
+
             <div class="blocs bloc3">
               <a href="#">
-                <img src="images/kilyan-sockalingum.jpg" alt="image calanque"/>
-                <h1>Parc national des Calanques</h1>
+                <img src="images/kilyan-sockalingum.jpg" alt="image calanque">
+                <p>Parc national des Calanques</p>
               </a>
             </div>
-            <div class="blocs">
+
+            <div class="blocs blocs4">
               <a href="#">
-                <img src="images/florian-wehde.jpg" alt="image centre ville"/>
-                <h1>Centre Ville</h1>
+                <img src="images/florian-wehde.jpg" alt="image centre ville">
+                <p>Centre Ville</p>
               </a>
             </div>
-          </article>
+          </div>
         </section>
       </main>
+
+
+      <!--FOOTER-->
 
       <footer>
         <section class="footer-info info1">
